@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.right{
+  width: 20%;
+  background-color: azure;
+  position: absolute;
+  top: 10%;
+  right: 25%;
+}
+.left{
+  width: 20%;
+  position: absolute;
+  background-color: orange;
+  min-height: 30px;
+  top: 10%;
+  left: 25%;
+}

@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    .container-fluid
+        .row
+            .col.align-self-center
+                div#left.left.rounded
+                div#right.right
+                    .card.text-white.bg-dark.mb-3
+                        .card-body
+                            .card-text 1
+                    .card.text-white.bg-dark.mb-3
+                        .card-body
+                            .card-text 2
+                    .card.text-white.bg-dark.mb-3.text-center
+                        .card-header
+                            h5.card-title double input card
+                        .card-body
+                            input(type='text').form-control
+                    .card.text-white.bg-dark.mb-3
+                        .card-body
+                            .card-text 3
+                    .card.text-white.bg-dark.mb-3.text-center
+                        .card-header
+                            h5.card-title double input card
+                        .card-body
+                            input(type='text').form-control
+                            br
+                            input(type='text').form-control
+            .col
+                button(type='button' aria-pressed='true' id='btn').btn.btn-primary.btn-lg.active save
+                br
+                br
+                .card.text-white.bg-dark.mb-3
+                    .card-body
+                        .card-text(id='demo')
